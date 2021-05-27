@@ -1,0 +1,63 @@
+/* Button */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+
+}
+.btn:hover {
+    opacity: 0.5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+
+
+
+
+
+
+<header class="masthead">
+    <!-- navigation -->
+    <div id="navbar" class="navbar top menu-wrap" style="background: rgb(255, 255, 255);">    
+        <img src="./assests/logo/logo.svg" class="logo">
+        <input type="checkbox" class="toggler"> 
+        <div class="hamburger">
+         <div></div>
+     </div>
+        <div class="menu">
+           <div>
+           <div>
+            
+            <ul class="nav-ul">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#home">HOME</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger " href="#about">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#process">Process</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testmonial">Testmonial</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
+         </div></div>
+      </div>
+         
+    </div>
+    <section class="header-content">
+        <div class="emptydiv"></div>
+        <div class="filleddiv">
+            <h1>We Design and Develop</h1>
+            <p>We are new design studio based on USA.We have over  20 years of combined experiance, and know a thing or two about designing website and mobile apps.</p>
+            <br>
+            <a class="btn btn-info" href="#contact">Contact Us</a>
+        </div>
+    </section>
+</header>
