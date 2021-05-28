@@ -13,7 +13,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
-    background: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
@@ -118,7 +117,6 @@ img {
 /* About Page */
 
 #about {
-    background: #f4f4f4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,12 +130,15 @@ img {
     font-size: 3rem;
 }
 #about .about-top p {
+    color: #555;
     font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 #about .about-top img {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 #about .about-middle {
@@ -149,10 +150,15 @@ img {
 
 }
 
+
+.about-middle .progress {
+    line-height: 2.6rem;
+}
 .progress-bar-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 #about .about-middle  h2 {
     font-size: 3rem;
@@ -293,7 +299,7 @@ img {
    
 }
 .work-object a {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 .work-object a:hover {
     color: orange;
@@ -308,15 +314,14 @@ img {
 /* Work Process */
 
 .work-process {
-    height: 100vh   ;
     width: 100%;
 }
 .process-top {
     align-items: center;
     text-align: center;
     padding: 10px 30px;
-    height: 100%;
     padding-top: 70px;
+    line-height: 2.5rem;
 }
 .work-process .process-top img {
     width: 100%;
@@ -327,6 +332,7 @@ img {
 }
 .process-top p {
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 .process-top img {
@@ -343,12 +349,12 @@ img {
     
 } */
 .service .test-top {
-    height: 100vh;
     padding-top: 60px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
+    padding-top: 129px;
     
 }
 .service .test-top i {
@@ -356,7 +362,13 @@ img {
     font-size: 4rem;
 }
 .service .test-top h4 {
+    font-weight: 400;
     font-size: 1rem;
+}
+.service .test-top p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 38px;
 }
 
 
@@ -405,7 +417,6 @@ img {
 
 /* Contact */
 .contact {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -421,18 +432,18 @@ img {
     text-align: center;
 }
 .contact .contact-top p {
-    font-size: 1.5rem;
-    padding: 10px 30px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+    padding: 10px 50px;
 }
 .contact .contact-top h2 {
+    margin-top: 46px;
     font-size: 2rem;
     font-weight: bold;
 }
-.contact .contact-middle {
-    height: 40%;
-}
+
 .contact-bottom {
-    height: 20%;
     width: 100%;
     background: rgb(58, 206, 191);
 }
@@ -483,7 +494,6 @@ img {
 /* Footer */
 #footer {
     width: 100%;
-    height: 100%;
 }
 .contact-bottom {
     color: #fff;
@@ -491,6 +501,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
 .contact-bottom .content-box {
     font-size: 1rem;
@@ -615,18 +626,10 @@ img {
         display: flex;
         flex-direction: column;
     }
-    .service .test-top .test-box-1 {
+    /* .service .test-top .test-box-1 {
         visibility: hidden;
-    }
-    .service .test-top i {
-        padding: 15px;
-        font-size: 3rem;
-    }
-    .service .test-top h4 {
-        font-size: 1rem;
-    }
-
-
+    } */
+   
 
    .testimoniolas .test-middle {
        height: 120px;
