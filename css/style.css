@@ -117,6 +117,7 @@ img {
 /* About Page */
 
 #about {
+    background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,14 +131,13 @@ img {
     font-size: 3rem;
 }
 #about .about-top p {
-    color: #555;
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
 }
 
 #about .about-top img {
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     margin-bottom: 20px;
 }
 
@@ -427,22 +427,19 @@ img {
     width: 100%;
 }
 .contact .contact-top {
-    padding-top: 20px;
-    color: #000;
+    color: #555;
     text-align: center;
 }
 .contact .contact-top p {
-    margin-bottom: 10px;
     font-size: 1rem;
-    color: #555;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 .contact .contact-top h2 {
-    margin-top: 46px;
+    margin-top: 60px;
     font-size: 2rem;
+    color: #000;
     font-weight: bold;
 }
-
 .contact-bottom {
     width: 100%;
     background: rgb(58, 206, 191);
